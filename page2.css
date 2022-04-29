@@ -1,0 +1,62 @@
+.navbar {
+    background-color: black;
+    border-radius: 30px;
+
+}
+
+.navbar ul {
+    overflow: hidden;
+
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin:  13px;
+
+}
+
+.navbar li a {
+    padding: 3px 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: red;
+    text-decoration: underline;
+}
+
+.Search {
+    color: white;
+    padding: 9px 34px;
+    float: right;
+
+}
+
+.navbar input {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6px 21px;
+
+}
+body {
+    background-image: url(' https://images.assetsdelivery.com/compings_v2/peshkov/peshkov1712/peshkov171200375.jpg');
+    background-repeat: no-repeat;
+    height: 1200px;
+    background-size: cover;
+}
+p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px 13px;
+    color: white;
+}
+.img{
+    height: 100px;
+    background-position: 500px;
+  
+}
